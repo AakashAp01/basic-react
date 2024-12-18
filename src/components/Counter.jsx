@@ -18,7 +18,7 @@ function Counter() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
+    <div className="h-52 flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
       <h1 className="text-6xl font-bold mb-8">Counter: {count}</h1>
       <div className="flex gap-4">
         <button

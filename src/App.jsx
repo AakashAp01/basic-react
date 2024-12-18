@@ -1,14 +1,14 @@
 import Card from "./components/Card"
 import Counter from "./components/Counter"
+import BgChange from "./components/BgChange"
 
 
 function App() {
   return (
     <>
-      {/* <Counter/> */}
-      <div>
-        <Card/>
-      </div>
+      <BgChange/>
+      <Counter/>
+      <Card username='Aakash Prajapati' description="Im a laravel developer"/>
     </>
   );
 }
