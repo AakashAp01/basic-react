@@ -18,21 +18,21 @@ function Counter() {
   };
 
   return (
-    <div className="h-52 flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
-      <h1 className="text-6xl font-bold mb-8">Counter: {count}</h1>
+    <div className="h-80 flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
+      <h1 className="text-4xl font-bold mb-8">Counter: {count}</h1>
       <div className="flex gap-4">
         <button
           onClick={add}
           style={{
             backgroundColor: getRandomColor(),
           }}
-          className="px-6 py-3 text-lg font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl"
+          className="px-6 py-3 text-l font-semibold rounded-lg shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl"
         >
           Add +
         </button>
         <button
           onClick={remove}
-          className="px-6 py-3 text-lg font-semibold bg-green-500 rounded-lg shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl"
+          className="px-6 py-3 text-l font-semibold bg-green-500 rounded-lg shadow-lg transition-transform transform hover:scale-110 hover:shadow-xl"
         >
           Remove -
         </button>

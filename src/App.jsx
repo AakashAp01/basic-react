@@ -2,11 +2,13 @@ import Card from "./components/Card"
 import Counter from "./components/Counter"
 import BgChange from "./components/BgChange"
 import PasswordGenerator from "./components/PasswordGenerator"
+import CurrencyConverter from "./components/CurrencyConvertor"
 
 
 function App() {
   return (
     <>
+    <CurrencyConverter/>
     <PasswordGenerator/>
       <BgChange/>
       <Counter/>

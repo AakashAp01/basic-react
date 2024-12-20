@@ -9,7 +9,14 @@ export default function BgChange() {
       className="w-full h-80 duration-200"
       style={{ backgroundColor: color }}
     >
-      <div className="flex flex-wrap justify-center pt-10">
+      <h3
+        className={`text-center text-2xl font-semibold pt-3 ${
+          color === "black" ? "text-white" : "text-black"
+        }`}
+      >
+        Background Changer
+      </h3>
+      <div className="flex flex-wrap justify-center pt-4">
         <div className="flex flex-warp gap-2 justify-center rounded-full p-2 bg-white">
           {colors.map((element, index) => (
             <button
@@ -18,7 +25,7 @@ export default function BgChange() {
               onClick={() => setColor(element)}
               className={`px-7 py-2 rounded-full font-semibold text-white`}
             >
-              <span className={`capitalize`} >{element}</span>
+              <span className={`capitalize`}>{element}</span>
             </button>
           ))}
         </div>

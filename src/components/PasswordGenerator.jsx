@@ -33,7 +33,7 @@ export default function PasswordGenerator() {
     window.navigator.clipboard.writeText(password);
   }, [password]);
   return (
-    <div className="bg-slate-800 p-8 flex flex-col justify-center items-center text-red-500">
+    <div className="bg-slate-800 h-80 p-8 flex flex-col justify-center items-center text-red-500">
       <div className="bg-slate-900 rounded-lg p-5">
         <h1 className="text-3xl text-center text-red-500 font-semibold mb-6">
           Password Generator
