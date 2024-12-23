@@ -3,11 +3,13 @@ import Counter from "./components/Counter"
 import BgChange from "./components/BgChange"
 import PasswordGenerator from "./components/PasswordGenerator"
 import CurrencyConverter from "./components/CurrencyConvertor"
+// import DataTable from "./components/DataTable"
 
 
 function App() {
   return (
     <>
+    {/* <DataTTable/> */}
     <CurrencyConverter/>
     <PasswordGenerator/>
       <BgChange/>

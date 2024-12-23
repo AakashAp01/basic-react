@@ -13,6 +13,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.3.3",
+    "ag-grid-community": "^33.0.3",
+    "ag-grid-react": "^33.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
