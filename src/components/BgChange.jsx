@@ -6,7 +6,7 @@ export default function BgChange() {
 
   return (
     <div
-      className="w-full h-80 duration-200"
+      className="w-full duration-200 h-screen"
       style={{ backgroundColor: color }}
     >
       <h3
@@ -16,7 +16,7 @@ export default function BgChange() {
       >
         Background Changer
       </h3>
-      <div className="flex flex-wrap justify-center pt-4">
+      <div className="flex flex-wrap justify-center pt-4 h-s">
         <div className="flex flex-warp gap-2 justify-center rounded-full p-2 bg-white">
           {colors.map((element, index) => (
             <button

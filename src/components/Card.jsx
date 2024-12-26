@@ -2,7 +2,7 @@
 function Card({username,description}) {
   return (
 
-    <div className="w-64 m-10 bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="w-64 h-80 m-10 bg-white rounded-xl shadow-lg overflow-hidden">
       <img
         src="https://media1.giphy.com/media/z8n8dWgQ0mgEIyzlmV/giphy.gif?cid=790b7611a5ba988db1bc7457636dd163c28af6f6dbc84a77&rid=giphy.gif&ct=g"
         alt="Giphy"
